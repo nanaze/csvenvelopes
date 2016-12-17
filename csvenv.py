@@ -21,10 +21,6 @@ def WriteEnvelope(surface, lines):
 
 
 
-
-
-
-
       
 
   
