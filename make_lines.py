@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 
@@ -31,7 +31,7 @@ def main():
     out_lines.append(city_line)
 
     out_line = '\t'.join(out_lines)
-    print out_line
+    print (out_line)
 
 if __name__ == '__main__':
   main()
