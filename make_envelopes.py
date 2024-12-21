@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 import cairo
@@ -13,7 +13,7 @@ def main():
   WIDTH = WIDTH_IN * POINTS_PER_INCH
   HEIGHT = HEIGHT_IN * POINTS_PER_INCH
   
-  surface = cairo.PDFSurface(sys.stdout, WIDTH, HEIGHT)
+  surface = cairo.PDFSurface(sys.stdout.buffer, WIDTH, HEIGHT)
 
   for line in sys.stdin:
     line = line.strip()
